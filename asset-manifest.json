@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/OWANGES/React-Portfolio/static/css/main.a47c34dd.css",
+    "main.js": "/OWANGES/React-Portfolio/static/js/main.952b4a9d.js",
+    "static/js/453.28dd90d7.chunk.js": "/OWANGES/React-Portfolio/static/js/453.28dd90d7.chunk.js",
+    "static/media/image2.png": "/OWANGES/React-Portfolio/static/media/image2.acf74ac2d15be3c94f14.png",
+    "static/media/image 1.png": "/OWANGES/React-Portfolio/static/media/image 1.5adc55cb0ac713349199.png",
+    "static/media/background.jpg": "/OWANGES/React-Portfolio/static/media/background.61e59ee7cc6141be0e78.jpg",
+    "index.html": "/OWANGES/React-Portfolio/index.html",
+    "main.a47c34dd.css.map": "/OWANGES/React-Portfolio/static/css/main.a47c34dd.css.map",
+    "main.952b4a9d.js.map": "/OWANGES/React-Portfolio/static/js/main.952b4a9d.js.map",
+    "453.28dd90d7.chunk.js.map": "/OWANGES/React-Portfolio/static/js/453.28dd90d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47c34dd.css",
+    "static/js/main.952b4a9d.js"
+  ]
+}
