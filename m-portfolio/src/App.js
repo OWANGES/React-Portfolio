@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -11,25 +11,23 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <motion.div
-        className="app"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <Navbar />
-        <div className="content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
-        <Footer />
-      </motion.div>
-    </Router>
+    <motion.div
+      className="app"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <Navbar />
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+      <Footer />
+    </motion.div>
   );
 }
 
